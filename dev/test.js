@@ -5,7 +5,7 @@ const currentBlockData = [
     {
         amount : 10,
         sender : 'ALEXHT845SJ5TKCJ2',
-        recipient : 'JENN5BG5DF6HT8NG9'
+        recipient : 'JENN5BG5DF6HT8NG9z'
     }
 ];
 const nonce = 100;
