@@ -36,6 +36,7 @@ Blockchain.prototype.hashBlock = function(previousBlockHash, currentBlockData, n
     const hash = sha256(dataAsString);
     return hash;
 }
+//작업증명은 올바른 nonce 값을 찾는 과정
 Blockchain.prototype.proofOfWork = function(previousBlockHash, currentBlockData){
     let nonce = 0;
     let hash = this.hashBlock(previousBlockHash, currentBlockData, nonce);
